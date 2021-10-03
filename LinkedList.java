@@ -22,6 +22,15 @@ class LinkedList{
             llist.printList();
     }  
 
+    public void printList(){  
+        Node n = head; 
+        while (n != null){ 
+            System.out.print(n.data+" "); 
+            n = n.next;
+        }
+    }  
+
+
     class Node {
         int data;
         Node next;
